@@ -14,4 +14,4 @@ only long / with commission
 
 <img src="https://raw.githubusercontent.com/Ragve-hub/scribble/gh-pages/images/seasonal1_p2.png" alt="">
 
-# Адаптер Transaq Connector для Openquant. As is..
+1) Адаптер Transaq Connector для Openquant. As is..
