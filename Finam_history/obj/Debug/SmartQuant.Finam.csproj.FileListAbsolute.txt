@@ -1,0 +1,2 @@
+E:\SmartQuant.Finam\obj\Debug\ResolveAssemblyReference.cache
+E:\SmartQuant.Finam\obj\Debug\SmartQuant.Finam.csprojResolveAssemblyReference.cache

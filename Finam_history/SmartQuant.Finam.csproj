@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28902E7A-71EE-48D4-91D0-D630842EE5C3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmartQuant.Finam</RootNamespace>
+    <AssemblyName>SmartQuant.Finam</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\Program Files\SmartQuant Ltd\QuantDeveloper .NET\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SmartQuant, Version=1.0.2494.25359, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Business">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Business.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Charting">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.CSI">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.CSI.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=844f265c18b031f9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.DataCenterLib">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.DataCenterLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.DC">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.DC.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.ESignal">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.ESignal.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.ExcelLib">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.ExcelLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Execution">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Execution.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.File">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.File.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Finam">
+      <HintPath>C:\Program Files (x86)\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Finam.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.FinChart">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.FinChart.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.FIX, Version=1.0.2494.25348, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.FIX.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.FIXApplication">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.FIXApplication.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.FIXData">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.FIXData.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.FS">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.FS.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Google">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.GS">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.GS.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.IB">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.IB.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Indicators">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Indicators.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Instruments, Version=1.0.2494.25364, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Instruments.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.MBT">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.MBT.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Neural">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Neural.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.OEC">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.OEC.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Optimization">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.OT">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.OT.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.OTK">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.OTK.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Pricers">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Pricers.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Providers, Version=1.0.2494.25361, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.PS">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.PS.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.QH">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.QH.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.QT">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.QT.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Quant">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Quant.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Quik">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Quik.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Series, Version=1.0.2494.25362, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Series.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Services">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Shared">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Simulation">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Simulation.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.TAL">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.TAL.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Testing">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Trading">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Trading.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.TT">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.TT.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Xml">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartQuant.Yahoo">
+      <HintPath>C:\Program Files %28x86%29\SmartQuant Ltd\QuantDeveloper .NET\bin\SmartQuant.Yahoo.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FinamData.cs" />
+    <Compile Include="FinamHistoryDownloader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
